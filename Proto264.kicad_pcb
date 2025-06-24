@@ -59,8 +59,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 4 4)
-    (pad_drill 3.200001)
+    (pad_size 3.2 3.2)
+    (pad_drill 3.2)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 102.235 48.133)
     (grid_origin 102.235 48.133)
@@ -206,7 +206,7 @@
     (add_net GND)
   )
 
-  (module Proto264:ProtoArea35x19 (layer F.Cu) (tedit 685A6B94) (tstamp 62F008AF)
+  (module Proto264:ProtoArea35x19 (layer F.Cu) (tedit 685A74A0) (tstamp 62F008AF)
     (at 152.146 74.422)
     (path /6320048C)
     (fp_text reference J4 (at 0 25.4) (layer F.SilkS) hide
@@ -876,8 +876,8 @@
     (pad ~ thru_hole circle (at -33.02 -22.86) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
     (pad ~ thru_hole circle (at -35.56 -22.86) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
     (pad ~ thru_hole circle (at -38.1 -22.86) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-    (pad "" thru_hole circle (at -41.656 -21.463) (size 4 4) (drill 3.200001) (layers *.Cu *.Mask))
-    (pad "" thru_hole circle (at 41.91 -21.59) (size 4 4) (drill 3.200001) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -41.656 -21.463) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 41.91 -21.59) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
   (module Proto264:C16_Cart_Conn (layer F.Cu) (tedit 6204322B) (tstamp 62E18339)
